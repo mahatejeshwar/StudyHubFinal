@@ -1,3 +1,4 @@
+import {logo} from "../../../public/logo.png"
 exports.passwordUpdated = (email, name) => {
 	return `<!DOCTYPE html>
     <html>
@@ -55,8 +56,8 @@ exports.passwordUpdated = (email, name) => {
     
     <body>
         <div class="container">
-            <a href="https://StudyHub-edtech-project.vercel.app"><img class="logo"
-                    src="https://i.ibb.co/7Xyj3PC/logo.png" alt="StudyHub Logo"></a>
+            <a href="https://studyhubfinal-1.onrender.com"><img class="logo"
+                    src="${logo}" alt="StudyHub Logo"></a>
             <div class="message">Password Update Confirmation</div>
             <div class="body">
                 <p>Hey ${name},</p>

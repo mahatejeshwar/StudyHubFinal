@@ -1,3 +1,4 @@
+import {logo} from "../../../public/logo.png"
 const otpTemplate = (otp) => {
 	return `<!DOCTYPE html>
 	<html>
@@ -66,8 +67,8 @@ const otpTemplate = (otp) => {
 	
 	<body>
 		<div class="container">
-			<a href="https://StudyHub-edtech-project.vercel.app"><img class="logo"
-					src="https://i.ibb.co/7Xyj3PC/logo.png" alt="StudyHub Logo"></a>
+			<a href="https://studyhubfinal-1.onrender.com"><img class="logo"
+					src="${logo}" alt="StudyHub Logo"></a>
 			<div class="message">OTP Verification Email</div>
 			<div class="body">
 				<p>Dear User,</p>

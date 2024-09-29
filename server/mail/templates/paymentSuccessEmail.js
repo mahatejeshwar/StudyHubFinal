@@ -1,3 +1,4 @@
+import {logo} from "../../../public/logo.png"
 exports.paymentSuccessEmail = (name, amount, orderId, paymentId) => {
   return `<!DOCTYPE html>
     <html>
@@ -67,7 +68,7 @@ exports.paymentSuccessEmail = (name, amount, orderId, paymentId) => {
     
     <body>
         <div class="container">
-            <a href="https://StudyHub-edtech-project.vercel.app"><img class="logo" src=""
+            <a href="https://studyhubfinal-1.onrender.com"><img class="logo" src="${logo}"
                     alt="StudyHub Logo"></a>
             <div class="message">Course Payment Confirmation</div>
             <div class="body">
