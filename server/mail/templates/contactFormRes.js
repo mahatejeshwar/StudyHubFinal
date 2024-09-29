@@ -1,5 +1,5 @@
 import {logo} from "../../../public/logo.png"
-exports.contactUsEmail = (
+contactUsEmail = (
   email,
   firstname,
   lastname,
@@ -96,3 +96,5 @@ exports.contactUsEmail = (
   
   </html>`
 }
+
+module.exports=contactUsEmail;

@@ -1,5 +1,5 @@
 import {logo} from "../../../public/logo.png"
-exports.passwordUpdated = (email, name) => {
+passwordUpdated = (email, name) => {
 	return `<!DOCTYPE html>
     <html>
     
@@ -74,3 +74,5 @@ exports.passwordUpdated = (email, name) => {
     
     </html>`;
 };
+
+module.exports=passwordUpdated;

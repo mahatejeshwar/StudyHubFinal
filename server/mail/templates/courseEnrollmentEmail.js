@@ -1,5 +1,5 @@
 import {logo} from "../../../public/logo.png"
-exports.courseEnrollmentEmail = (courseName, name) => {
+courseEnrollmentEmail = (courseName, name) => {
   return `<!DOCTYPE html>
   <html>
   
@@ -86,3 +86,5 @@ exports.courseEnrollmentEmail = (courseName, name) => {
   
   </html>`;
 };
+
+module.exports=courseEnrollmentEmail;

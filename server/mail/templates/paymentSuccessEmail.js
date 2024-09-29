@@ -1,5 +1,5 @@
 import {logo} from "../../../public/logo.png"
-exports.paymentSuccessEmail = (name, amount, orderId, paymentId) => {
+paymentSuccessEmail = (name, amount, orderId, paymentId) => {
   return `<!DOCTYPE html>
     <html>
     
@@ -84,3 +84,5 @@ exports.paymentSuccessEmail = (name, amount, orderId, paymentId) => {
     
     </html>`
 }
+
+module.exports=paymentSuccessEmail;
