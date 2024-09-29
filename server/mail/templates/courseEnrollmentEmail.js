@@ -1,5 +1,4 @@
-import {logo} from "../../../public/logo.png"
-courseEnrollmentEmail = (courseName, name) => {
+exports.courseEnrollmentEmail = (courseName, name) => {
   return `<!DOCTYPE html>
   <html>
   
@@ -68,7 +67,7 @@ courseEnrollmentEmail = (courseName, name) => {
   
   <body>
       <div class="container">
-          <a href="https://studyhubfinal-1.onrender.com"><img class="logo" src="${logo}"
+          <a href="https://studyhubfinal-1.onrender.com/"><img class="logo" src="https://i.ibb.co/7Xyj3PC/logo.png"
                   alt="StudyHub Logo"></a>
           <div class="message">Course Registration Confirmation</div>
           <div class="body">
@@ -77,7 +76,7 @@ courseEnrollmentEmail = (courseName, name) => {
                   are excited to have you as a participant!</p>
               <p>Please log in to your learning dashboard to access the course materials and start your learning journey.
               </p>
-              <a class="cta" href="https://studyhubfinal-1.onrender.com/dashboard">Go to Dashboard</a>
+              <a class="cta" href="https://studyhubfinal-1.onrender.com/">Go to Dashboard</a>
           </div>
           <div class="support">If you have any questions or need assistance, please feel free to reach out to us at <a
                   href="mailto:info@StudyHub.com">info@StudyHub.com</a>. We are here to help!</div>
@@ -86,5 +85,3 @@ courseEnrollmentEmail = (courseName, name) => {
   
   </html>`;
 };
-
-module.exports=courseEnrollmentEmail;

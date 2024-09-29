@@ -1,5 +1,4 @@
-import {logo} from "../../../public/logo.png"
-paymentSuccessEmail = (name, amount, orderId, paymentId) => {
+exports.paymentSuccessEmail = (name, amount, orderId, paymentId) => {
   return `<!DOCTYPE html>
     <html>
     
@@ -68,7 +67,7 @@ paymentSuccessEmail = (name, amount, orderId, paymentId) => {
     
     <body>
         <div class="container">
-            <a href="https://studyhubfinal-1.onrender.com"><img class="logo" src="${logo}"
+            <a href="https://studyhubfinal-1.onrender.com/><img class="logo" src="https://i.ibb.co/7Xyj3PC/logo.png"
                     alt="StudyHub Logo"></a>
             <div class="message">Course Payment Confirmation</div>
             <div class="body">
@@ -84,5 +83,3 @@ paymentSuccessEmail = (name, amount, orderId, paymentId) => {
     
     </html>`
 }
-
-module.exports=paymentSuccessEmail;
