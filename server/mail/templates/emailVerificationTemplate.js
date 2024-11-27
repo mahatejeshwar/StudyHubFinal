@@ -67,7 +67,7 @@ const otpTemplate = (otp) => {
 	<body>
 		<div class="container">
 			<a href="https://studyhubfinal-1.onrender.com/"><img class="logo"
-					src="https://i.ibb.co/7Xyj3PC/logo.png" alt="StudyHub Logo"></a>
+					src="https://drive.google.com/file/d/1027y_a7U0GYiKtjWstFbXFn3KVtWh726/view?usp=sharing" alt="StudyHub Logo"></a>
 			<div class="message">OTP Verification Email</div>
 			<div class="body">
 				<p>Dear User,</p>
